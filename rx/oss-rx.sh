@@ -42,23 +42,11 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 export CHATID API_BOT TYPE_KERNEL
 
-# config
-# git config --global user.name "RooGhz720"
-# git config --global user.email "RooGhz720@gmail.com"
-# git remote add addon https://github.com/RooGhz720/RooGhz720.git
-# git fetch addon
-sleep 5
-# git cherry-pick e1d3bc0257977dbe64b2fa3e9506d21735ee8fef
-# git cherry-pick --skip
-git status
-echo "oss version"
-sleep 2
-
 # Kernel build release tag
 TYPE="OSS"
-KERNEL_NAME="Hyperion-RX"
+KERNEL_NAME="Aghisna-Vayu"
 DEVICE="Redmi note 10 pro"
-DEFCONFIG="sweet_defconfig"
+DEFCONFIG="vayu_defconfig"
 AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="hyper"
 HOSST="MyLabs"
@@ -140,7 +128,7 @@ make O=out clean && make O=out mrproper
 make "$DEFCONFIG" O=out
 
 echo -e "$yellow << compiling the kernel >> \n $white"
-tg_post_msg "Compile Kernel sedang berlangsung untuk $DEVICE - OSS-RX VERSION" "$CHATID"
+tg_post_msg "Compile Kernel sedang berlangsung untuk $DEVICE - OSS-Vayu VERSION" "$CHATID"
 
 build_kernel || error=true
 
