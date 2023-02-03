@@ -46,7 +46,7 @@ export CHATID API_BOT TYPE_KERNEL
 TYPE="OSS"
 KERNEL_NAME="Aghisna-Vayu"
 DEVICE="Redmi note 10 pro"
-DEFCONFIG="vayu_defconfig"
+DEFCONFIG="LawRun_defconfig"
 AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="hyper"
 HOSST="MyLabs"
