@@ -62,7 +62,7 @@ AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="master"
 HOSST="MyLabs"
 USEER="aghisna"
-ID="AmiciaDeRune"
+ID="Amicia"
 MESIN="Git Workflows"
 
 # setup telegram env
