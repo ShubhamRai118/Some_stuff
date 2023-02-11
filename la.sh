@@ -49,10 +49,10 @@ DEVICE="Poco X3 Pro"
 KERNEL_NAME="AGHISNA"
 DEFCONFIG="vayu_defconfig"
 AnyKernel="https://github.com/RooGhz720/Anykernel3"
-AnyKernelbranch="master"
+AnyKernelbranch="another"
 HOSST="MyLabs"
 USEER="RooGhz720"
-ID="AmiciaDeRune"
+ID="Aghisna"
 MESIN="Git Workflows"
 
 
