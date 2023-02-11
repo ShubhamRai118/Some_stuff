@@ -44,7 +44,7 @@ export CHATID API_BOT TYPE_KERNEL
 
 
 # Kernel build config
-TYPE="MIUI"
+TYPE="OSS"
 DEVICE="Poco X3 Pro"
 KERNEL_NAME="AGHISNA"
 DEFCONFIG="vayu_defconfig"
@@ -52,7 +52,7 @@ AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="another"
 HOSST="MyLabs"
 USEER="RooGhz720"
-ID="Aghisna"
+ID="Amicia"
 MESIN="Git Workflows"
 
 
