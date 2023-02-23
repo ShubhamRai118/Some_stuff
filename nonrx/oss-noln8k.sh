@@ -48,13 +48,16 @@ git config --global user.email "RooGhz720@gmail.com"
 git remote add addon https://github.com/RooGhz720/RooGhz720.git
 git fetch addon
 sleep 5
-git cherry-pick e1d3bc0257977dbe64b2fa3e9506d21735ee8fef
+git cherry-pick 4dcced01f5164a88a331a6b7d94809d30874d4cb ##no ln8000 pick
+sleep 5
+git cherry-pick e1d3bc0257977dbe64b2fa3e9506d21735ee8fef ##oss pick
 git cherry-pick --skip
 echo "berhasil switch ke oss"
+echo "varint no ln8000 oss"
 sleep 2
 
 # Kernel build config
-TYPE="OSS"
+TYPE="OSS-BASIC"
 KERNEL_NAME="AGHISNA"
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
