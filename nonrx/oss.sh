@@ -65,6 +65,12 @@ USEER="aghisna"
 ID="Amicia"
 MESIN="Git Workflows"
 
+# clang config
+REMOTE="https://github.com"
+TARGET="mARk-android"
+REPO="mARkClang-17.git"
+BRANCH="clang-17.0"
+
 # setup telegram env
 export WAKTU=$(date +"%T")
 export TGL=$(date +"%d-%m-%Y")
@@ -106,7 +112,7 @@ tg_error() {
 
 # clang stuff
 		echo -e "$green << cloning clang >> \n $white"
-		git clone --depth=1 -b 17 https://gitlab.com/PixelOS-Devices/playgroundtc.git "$HOME"/clang
+		git clone --depth=1 -b "$BRANCH" "$REMOTE"/"$TARGET"/"$REPO" "$HOME"/clang
 
 	export PATH="$HOME/clang/bin:$PATH"
 	export KBUILD_COMPILER_STRING=$("$HOME"/clang/bin/clang --version | head -n 1 | sed -e 's/  */ /g' -e 's/[[:space:]]*$//' -e 's/^.*clang/clang/')
@@ -155,7 +161,7 @@ build_kernel || error=true
 
 DATE=$(date +"%Y%m%d-%H%M%S")
 KERVER=$(make kernelversion)
-KOMIT=$(git log --pretty=format:'"%h : %s"' -1)
+KOMIT=$(git log --pretty=format:'"%h : %s"' -2)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 export IMG="$MY_DIR"/out/arch/arm64/boot/Image.gz-dtb
