@@ -52,8 +52,14 @@ AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="master"
 HOSST="MyLabs"
 USEER="RooGhz720"
-ID="Amicia"
+ID="25"
 MESIN="Git Workflows"
+
+# clang config
+REMOTE="https://github.com"
+TARGET="mARk-android"
+REPO="mARkClang-17.git"
+BRANCH="clang-17.0"
 
 
 # setup telegram env
@@ -97,7 +103,7 @@ tg_error() {
 
 # clang stuff
 		echo -e "$green << cloning clang >> \n $white"
-		git clone --depth=1 -b 17 https://gitlab.com/PixelOS-Devices/playgroundtc.git "$HOME"/clang
+		git clone --depth=1 -b "$BRANCH" "$REMOTE"/"$TARGET"/"$REPO" "$HOME"/clang
 
 	export PATH="$HOME/clang/bin:$PATH"
 	export KBUILD_COMPILER_STRING=$("$HOME"/clang/bin/clang --version | head -n 1 | sed -e 's/  */ /g' -e 's/[[:space:]]*$//' -e 's/^.*clang/clang/')
