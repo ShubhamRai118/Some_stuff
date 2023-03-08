@@ -62,7 +62,7 @@ AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="master"
 HOSST="MyLabs"
 USEER="RooGhz720"
-ID="Amicia"
+ID="25"
 MESIN="Git Workflows"
 
 # clang config
