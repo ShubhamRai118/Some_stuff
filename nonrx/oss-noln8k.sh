@@ -69,10 +69,10 @@ ID="25"
 MESIN="Git Workflows"
 
 # clang config
-REMOTE="https://github.com"
-TARGET="mARk-android"
-REPO="mARkClang-17.git"
-BRANCH="clang-17.0"
+REMOTE="https://gitlab.com"
+TARGET="GhostMaster69-dev"
+REPO="cosmic-clang"
+BRANCH="master"
 
 # setup telegram env
 export WAKTU=$(date +"%T")
