@@ -53,7 +53,6 @@ AnyKernelbranch="master"
 HOSST="MyLabs"
 USEER="RooGhz720"
 ID="25"
-TZY="Asia/Jakarta"
 MESIN="Git Workflows"
 
 # clang config
@@ -137,7 +136,6 @@ export ARCH=arm64
 export SUBARCH=arm64
 export HEADER_ARCH=arm64
 
-export TZ="$TZY"
 export KBUILD_BUILD_HOST="$HOSST"
 export KBUILD_BUILD_USER="$USEER"
 export KBUILD_BUILD_VERSION="$ID"
@@ -161,7 +159,7 @@ BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 export IMG="$MY_DIR"/out/arch/arm64/boot/Image.gz-dtb
 export dtbo="$MY_DIR"/out/arch/arm64/boot/dtbo.img
-export dtb="$MY_DIR"/out/arch/arm64/boot/dtb.img=
+export dtb="$MY_DIR"/out/arch/arm64/boot/dtb.img
 
 
         if [ -f "$IMG" ]; then
