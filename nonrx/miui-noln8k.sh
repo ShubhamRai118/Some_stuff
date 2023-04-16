@@ -168,7 +168,7 @@ build_kernel || error=true
 
 DATE=$(date +"%Y%m%d-%H%M%S")
 KERVER=$(make kernelversion)
-KOMIT=$(git log --pretty=format:'"%h : %s"' -2)
+KOMIT=$(git log --pretty=format:'"%h : %s"' -3)
 BRANCH=$(git rev-parse --abbrev-ref HEAD)
 
 export IMG="$MY_DIR"/out/arch/arm64/boot/Image.gz-dtb
