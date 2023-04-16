@@ -42,6 +42,16 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 
 export CHATID API_BOT TYPE_KERNEL
 
+# config miui
+git config --global user.name "RooGhz720"
+git config --global user.email "RooGhz720@gmail.com"
+git remote add addon https://github.com/RooGhz720/RooGhz720.git
+git fetch addon
+sleep 5
+git cherry-pick 3b7da833ca83852ad3c60972a9ef6cdefcba8795 ##miui pick
+git cherry-pick --skip
+echo "berhasil switch ke MIUI"
+sleep 2
 
 # Kernel build config
 TYPE="MIUI"

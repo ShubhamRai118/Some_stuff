@@ -48,9 +48,12 @@ git config --global user.email "RooGhz720@gmail.com"
 git remote add addon https://github.com/RooGhz720/RooGhz720.git
 git fetch addon
 sleep 5
-git cherry-pick 4dcced01f5164a88a331a6b7d94809d30874d4cb
+git cherry-pick 3b7da833ca83852ad3c60972a9ef6cdefcba8795 ##miui pick
+sleep 5
+git cherry-pick 4dcced01f5164a88a331a6b7d94809d30874d4cb ##no ln8000 pick
 git cherry-pick --skip
-echo "varint no ln8000 miui"
+echo "berhasil switch ke MIUI"
+echo "varint no ln8000 MIUI"
 sleep 2
 
 # Kernel build config
