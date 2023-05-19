@@ -68,7 +68,7 @@ MESIN="Git Workflows"
 # clang config
 REMOTE="https://gitlab.com"
 TARGET="moehacker"
-REPO="cosmic-clang"
+REPO="clang-r487747"
 BRANCH="main"
 
 # setup telegram env
