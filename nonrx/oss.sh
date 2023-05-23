@@ -44,14 +44,14 @@ export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
 TYPE="OSS"
-KERNEL_NAME="AGHISNA"
+KERNEL_NAME="Dark-OSS
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
 AnyKernel="https://github.com/RooGhz720/Anykernel3"
 AnyKernelbranch="master"
 HOSST="MyLabs"
 USEER="aghisna"
-ID="25"
+ID="1"
 MESIN="Git Workflows"
 
 # clang config
