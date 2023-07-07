@@ -44,7 +44,7 @@ export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
 TYPE="OSS"
-KERNEL_NAME="Dark-x-Ryzan"
+KERNEL_NAME="Dark-x-Ryzan_Test"
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
 AnyKernel="https://github.com/ShubhamRai118/Anykernel3"
