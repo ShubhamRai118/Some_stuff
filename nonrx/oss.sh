@@ -43,8 +43,8 @@ if [[ ! -d "$MY_DIR" ]]; then MY_DIR="$PWD"; fi
 export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
-TYPE="OSS"
-KERNEL_NAME="Dark-x-Ryzan_Test"
+TYPE="MIUI"
+KERNEL_NAME="Dark-TEST"
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
 AnyKernel="https://github.com/ShubhamRai118/Anykernel3"
