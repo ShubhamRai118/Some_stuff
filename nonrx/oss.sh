@@ -44,7 +44,7 @@ export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
 TYPE="MIUI"
-KERNEL_NAME="Dark-TEST"
+KERNEL_NAME="Dark-TEST-OSS"
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
 AnyKernel="https://github.com/ShubhamRai118/Anykernel3"
