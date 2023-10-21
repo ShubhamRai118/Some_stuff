@@ -44,7 +44,7 @@ export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
 TYPE="OSS"
-KERNEL_NAME="DO_Not_Flash_Im-NotRisponsible"
+KERNEL_NAME="Dark_kernel_60hz_Only-Like_Alioth"
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
 AnyKernel="https://github.com/ShubhamRai118/Anykernel3"
