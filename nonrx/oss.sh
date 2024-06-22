@@ -44,7 +44,7 @@ export CHATID API_BOT TYPE_KERNEL
 
 # Kernel build config
 TYPE="OSS"
-KERNEL_NAME="Dark_kernel"
+KERNEL_NAME="Revive_Of_Recardinated-Sweet"
 DEVICE="Redmi note 10 pro"
 DEFCONFIG="sweet_defconfig"
 AnyKernel="https://github.com/ShubhamRai118/Anykernel3"
